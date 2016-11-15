@@ -1,0 +1,87 @@
+body {
+  background-color: #222222;
+  color: #ffffff; }
+
+.top-header {
+  width: 100%;
+  position: relative;
+  background-image: url('/images/topimg.jpg?1479224695');
+  background-position: 50%;
+  background-size: cover;
+  height: 220px;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 60px; }
+
+.logo {
+  height: 100px;
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  padding-left: 13px; }
+  .logo img {
+    position: initial;
+    height: 100px;
+    width: 100px; }
+  .logo .app-name {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    height: 100px;
+    max-width: calc(100% - 135px);
+    width: 100%; }
+    .logo .app-name h1 {
+      display: inline-block;
+      margin: 30px 0 12px 0;
+      -font-family: NotoSansCJKtc-Bold;
+      font-weight: 700;
+      font-size: 22px;
+      color: #FFFFFF;
+      letter-spacing: 0.28px;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+    .logo .app-name span {
+      font-size: 12px;
+      color: #FFFFFF;
+      letter-spacing: 0.17px; }
+      .logo .app-name span span {
+        float: right;
+        line-height: 22px; }
+  .logo .star {
+    width: 19px;
+    height: 19px; }
+
+section {
+  width: 100%;
+  padding: 10px 15px;
+  background: #464646;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+  section h4 {
+    margin: 8px 0 15px 0; }
+  section .content {
+    color: #eeeeee;
+    line-height: 1.5em;
+    letter-spacing: 1px; }
+
+.carousel {
+  margin: 0 25px; }
+  .carousel img {
+    height: 200px;
+    margin-right: 10px; }
+
+.fixed-dl-btn {
+  /* Rectangle 2: */
+  background-image: linear-gradient(-112deg, #7E1717 24%, #B33BC6 100%);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 23px;
+  /* Download Now | X: */
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  position: fixed;
+  left: 50%;
+  margin-left: -65px;
+  bottom: 20px;
+  width: 130px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center; }
